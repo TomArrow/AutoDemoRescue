@@ -4,6 +4,14 @@ A tool for people who use the JK2MV/NWH/EternalJK2MV AutoDemo (cl_autodemo 1) fe
 
 This tool will monitor your LastDemo folder and rescue any demos you forget to manually save, into a folder "AutoDemoRescue" next to your "LastDemo" folder, tagged with the date and time it was rescued.
 
+## Prerequisites
+
+This program has self-contained builds and small builds, as you can see in the Release section.
+
+The self-contained builds contain the .NET 5.0 runtime, which is pure bloat, but you don't need to install anything to use them.
+
+To use the small builds, install the Microsoft .NET 5.0 Runtime (if you don't have it installed yet): <https://dotnet.microsoft.com/en-us/download/dotnet/5.0>
+
 ## How to use
 
 Open the config.ini file. It should look like this:
